@@ -14,7 +14,7 @@ To run this project, you'll need to have the following prerequisites installed:
  -->
 
 
-# Database Query Benchmarking System
+# Exploring Locking Mechanisms in a B-Tree In-Memory Database
 
 ## Overview
 This project is designed to benchmark various database operations (INSERT, READ, UPDATE) using both row-level and cell-level locking mechanisms. It supports multi-threading, allowing the execution of queries concurrently to simulate different load scenarios and measure the performance of various query types under different thread configurations.
