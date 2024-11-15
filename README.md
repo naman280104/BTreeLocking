@@ -41,12 +41,12 @@ To get started, clone the repository to your local machine:
 
 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/naman280104/BTreeLocking.git
 ```
 
 2. Navigate to root folder of the repo.
 ```bash 
-cd <project-directory>
+cd BTreeLocking
 ```
 
 3. Install dependencies 
@@ -63,5 +63,9 @@ mvn package
 (Here -Xmx12g represents that 12GB is the max limit of JVM Heap Size.)
 ```bash
 java -Xmx12g -jar target/BTreeLocking-1.0-SNAPSHOT.jar
+```
+A packaged jar file is already present as ```out/artifacts/BTreeLocking_jar/BTreeLocking.jar``` which can be run by using the below command
+```bash
+java -Xmx12g -jar out/artifacts/BTreeLocking_jar/BTreeLocking.jar
 ```
 
