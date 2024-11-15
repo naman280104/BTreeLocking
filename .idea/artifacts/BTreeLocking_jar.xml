@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BTreeLocking:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BTreeLocking_jar</output-path>
+    <root id="archive" name="BTreeLocking.jar">
+      <element id="module-output" name="BTreeLocking" />
+    </root>
+  </artifact>
+</component>
